@@ -175,7 +175,7 @@ a:focus {
         width: 100%;
         padding: 30px 60px;
         background: transparent !important;
-        border-bottom: 1px dashed rgba(256, 256, 256, .2);
+        /* border-bottom: 1px dashed rgba(256, 256, 256, .2); */
         z-index: 9;
     }
     
@@ -423,7 +423,7 @@ a:focus {
 .section-header p {
     display: inline-block;
     margin: 0 30px;
-    margin-bottom: 10px;
+    /* margin-top: 10px; */
     padding-left: 15px;
     position: relative;
     font-size: 16px;
@@ -431,6 +431,10 @@ a:focus {
     letter-spacing: 1px;
     text-transform: uppercase;
     background: #ffffff;
+}
+
+#abt{
+    margin-top: 7%;
 }
 
 .section-header p::before {
@@ -559,7 +563,7 @@ a:focus {
 /*******************************/
 .experience {
     position: relative;
-    padding: 45px 0 15px 0;
+    padding: 30px 0 15px 0;
 }
 
 .experience .timeline {
@@ -1316,8 +1320,10 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
+    background: url(../img/95852-contact.gif) left center no-repeat;
     background-size: contain;
+    position: relative;
+    object-fit: cover;
 }
 
 .contact .contact-form {
