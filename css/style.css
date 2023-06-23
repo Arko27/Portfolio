@@ -1320,7 +1320,7 @@ a:focus {
 }
 
 .contact .container-fluid {
-    background: url(../img/95852-contact.gif) left center no-repeat;
+    /* background: url(../img/95852-contact.gif) left center no-repeat; */
     background-size: contain;
     position: relative;
     object-fit: cover;
