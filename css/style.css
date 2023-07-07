@@ -1546,9 +1546,9 @@ a:focus {
     margin: 0;
 }
 
-.footer .footer-social a:hover i {
+/* .footer .footer-social a:hover i {
     color: #414141;
-}
+} */
 
 .footer .copyright {
     position: relative;
@@ -1582,9 +1582,9 @@ a:focus {
     font-weight: 600;
 }
 
-.footer .copyright p a:hover {
+/* .footer .copyright p a:hover {
     color: #414141;
-}
+} */
 
 @media (max-width: 575.98px) {
     .footer .footer-info h2 {
